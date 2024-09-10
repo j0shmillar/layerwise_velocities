@@ -10,7 +10,6 @@ import torchvision.transforms as transforms
 
 from models import model
 
-# NEq applied layer-wise, with layer-wise velocity approximated by random-sampling of intra-layer neurons
 # TODO: add continuous update of layer velocity
 
 batch_size = 128
